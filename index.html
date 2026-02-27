@@ -1,140 +1,240 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
-	<head>
-		<title>Nicholas Giunta Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			/* Force all images in the projects section to have the same size */
-			#projects .image.fit img {
-				width: 100%; /* Ensure the image takes the full width of the container */
-				height: 400px; /* Set a fixed height for all images */
-				object-fit: cover; /* Ensures the image fills the space while maintaining its aspect ratio */
-			}
-		</style>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-		<div id="wrapper" class="fade-in">
+  <head>
+    <title>Nicholas Giunta Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <style>
+      /* Force all images in the projects section to have the same size */
+      #projects .image.fit img {
+        width: 100%; /* Ensure the image takes the full width of the container */
+        height: 400px; /* Set a fixed height for all images */
+        object-fit: cover; /* Ensures the image fills the space while maintaining its aspect ratio */
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro -->
+      <div id="intro">
+        <h1>Nicholas Giunta<br />Portfolio</h1>
+        <p>
+          Welcome to my portfolio! I am Nicholas Giunta, a data analyst skilled
+          in data visualization, analytics, and reporting. Here you’ll find
+          examples of my projects, reports, and insights.
+        </p>
+        <ul class="actions">
+          <li>
+            <a
+              href="#header"
+              class="button icon solid solo fa-arrow-down scrolly"
+              >Explore My Work</a
+            >
+          </li>
+        </ul>
+      </div>
 
-			<!-- Intro -->
-			<div id="intro">
-				<h1>Nicholas Giunta<br />Portfolio</h1>
-				<p>Welcome to my portfolio! I am Nicholas Giunta, a data analyst skilled in data visualization, analytics, and reporting. Here you’ll find examples of my projects, reports, and insights.</p>
-				<ul class="actions">
-					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore My Work</a></li>
-				</ul>
-			</div>
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">Nicholas Giunta Portfolio</a>
+      </header>
 
-			<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="logo">Nicholas Giunta Portfolio</a>
-			</header>
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="resume.pdf" download>Resume</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/Ngiunta1"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/nicholas-giunta-0134b31b4"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+        </ul>
+      </nav>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul class="links">
-					<li class="active"><a href="#intro">Home</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="assets/Nicholas Giunta DA Resume.pdf" target="_blank">Resume</a></li>
-				</ul>
-				<ul class="icons">
-					<li><a href="https://github.com/Ngiunta1" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="https://linkedin.com/in/nicholas-giunta-0134b31b4" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				</ul>
-			</nav>
+      <!-- Main -->
+      <div id="main">
+        <!-- Skills Section -->
+        <section id="skills">
+          <header class="major">
+            <h2>Skills</h2>
+            <p>
+              Excel | SQL | Power BI | Python | Data Visualization | Reporting
+            </p>
+          </header>
+        </section>
 
-			<!-- Main -->
-			<div id="main">
+        <!-- Projects Section -->
+        <section id="projects" class="posts">
+		  <!-- Arizona Housing Project -->
+          <article>
+            <header>
+              <span class="date">February 2026</span>
+              <h2>
+                <a
+                  href="https://github.com/Ngiunta1/phoenix-housing-analysis"
+                  target="_blank"
+                  >Arizona Housing Affordability Calculator</a
+                >
+              </h2>
+            </header>
+            <a
+              href="https://github.com/Ngiunta1/phoenix-housing-analysis"
+              target="_blank"
+              class="image fit"
+            >
+              <img
+                src="images/main_dashboard.png"
+                alt="Arizona Housing Affordability Dashboard"
+              />
+            </a>
+            <p>
+              Built an interactive Power BI dashboard analyzing 55,626 property listings across 213 Arizona cities. Features include a dynamic mortgage calculator, geographic visualization with geocoded coordinates, and comprehensive affordability analysis using industry-standard calculations. Demonstrates end-to-end ETL pipeline (Python → SQL → Power BI) with complex DAX measures and professional UX design.
+            </p>
+          </article>
+        </section>
 
-				<!-- Skills Section -->
-				<section id="skills">
-					<header class="major">
-						<h2>Skills</h2>
-						<p>Excel | SQL | Power BI | Python | Data Visualization | Reporting</p>
-					</header>
-				</section>
+          <!-- Data Cleaning Project -->
+          <article>
+            <header>
+              <span class="date">May 2024</span>
+              <h2>
+                <a
+                  href="https://github.com/Ngiunta1/portfolio/blob/main/World%20Company%20Layoffs%20Data%20Cleaning%20Project.sql"
+                  target="_blank"
+                  >Worldwide Company Layoffs Data Cleaning</a
+                >
+              </h2>
+            </header>
+            <a
+              href="https://github.com/Ngiunta1/portfolio/blob/main/World%20Company%20Layoffs%20Data%20Cleaning%20Project.sql"
+              target="_blank"
+              class="image fit"
+            >
+              <img
+                src="images/World Layoffs Data Cleaning Project.jpg"
+                alt="MySQL Data Cleaning Project"
+              />
+            </a>
+            <p>
+              Implemented a data cleaning process using MySQL to remove
+              duplicates, standardize values, and handle null values, enhancing
+              data quality for analysis. The project involved creating staging
+              tables, CTEs, and using various SQL techniques to ensure clean,
+              accurate data.
+            </p>
+          </article>
 
-				<!-- Projects Section -->
-				<section id="projects" class="posts">
-					
-					<!-- Data Cleaning Project -->
-					<article>
-						<header>
-							<span class="date">May 2024</span>
-							<h2><a href="https://github.com/Ngiunta1/PortfolioProjects/blob/main/Worldwide%20Company%20Layoffs%20Data%20Cleaning%20Project.sql" target="_blank">Worldwide Company Layoffs Data Cleaning</a></h2>
-						</header>
-						<a href="https://github.com/Ngiunta1/PortfolioProjects/blob/main/Worldwide%20Company%20Layoffs%20Data%20Cleaning%20Project.sql" target="_blank" class="image fit">
-							<img src="images/World Layoffs Data Cleaning Project.jpg" alt="MySQL Data Cleaning Project" />
-						</a>
-						<p>Implemented a data cleaning process using MySQL to remove duplicates, standardize values, and handle null values, enhancing data quality for analysis. The project involved creating staging tables, CTEs, and using various SQL techniques to ensure clean, accurate data.</p>
-					</article>
+          <!-- Data Exploration Project -->
+          <article>
+            <header>
+              <span class="date">June 2024</span>
+              <h2>
+                <a
+                  href="https://github.com/Ngiunta1/portfolio/blob/main/Worldwide%20Company%20Layoffs%20Data%20Exploration%20Project.sql"
+                  target="_blank"
+                  >Worldwide Company Layoffs Data Exploration</a
+                >
+              </h2>
+            </header>
+            <a
+              href="https://github.com/Ngiunta1/portfolio/blob/main/Worldwide%20Company%20Layoffs%20Data%20Exploration%20Project.sql"
+              target="_blank"
+              class="image fit"
+            >
+              <img
+                src="images/Worlwide Layoffs Data Exploration Project Pic.png"
+                alt="MySQL Data Cleaning Project"
+              />
+            </a>
+            <p>
+              Conducted exploratory data analysis on layoffs data using MySQL,
+              including data cleaning, trend analysis, and time series
+              calculations. Analyzed layoffs by company, industry, and country,
+              and identified key patterns during the COVID-19 pandemic.
+            </p>
+          </article>
+        </section>
 
-					<!-- Data Exploration Project -->
-					<article>
-						<header>
-							<span class="date">June 2024</span>
-							<h2><a href="https://github.com/Ngiunta1/PortfolioProjects/blob/main/Worldwide%20Company%20Layoffs%20Data%20Exploration%20Project.sql" target="_blank">Worldwide Company Layoffs Data Exploration</a></h2>
-						</header>
-						<a href="https://github.com/Ngiunta1/PortfolioProjects/blob/main/Worldwide%20Company%20Layoffs%20Data%20Exploration%20Project.sql" target="_blank" class="image fit">
-							<img src="images/Worlwide Layoffs Data Exploration Project Pic.png" alt="MySQL Data Cleaning Project" />
-						</a>
-						<p>Conducted exploratory data analysis on layoffs data using MySQL, including data cleaning, trend analysis, and time series calculations. Analyzed layoffs by company, industry, and country, and identified key patterns during the COVID-19 pandemic.</p>
-					</article>
+        <!-- Contact Section -->
+        <section id="contact">
+          <header class="major">
+            <h2>Contact</h2>
+            <p>
+              Feel free to reach out if you'd like to collaborate or learn more
+              about my work.
+            </p>
+          </header>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </form>
+          <section class="split contact">
+            <section>
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:1ngiunta2@gmail.com">1ngiunta2@gmail.com</a>
+              </p>
+            </section>
+          </section>
+        </section>
+      </div>
 
-				</section>
+      <!-- Footer -->
+      <footer id="footer">
+        <p>
+          &copy; Nicholas Giunta. Designed using
+          <a href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
 
-				<!-- Contact Section -->
-				<section id="contact">
-					<header class="major">
-						<h2>Contact</h2>
-						<p>Feel free to reach out if you'd like to collaborate or learn more about my work.</p>
-					</header>
-					<form method="post" action="#">
-						<div class="fields">
-							<div class="field">
-								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
-							</div>
-							<div class="field">
-								<label for="email">Email</label>
-								<input type="text" name="email" id="email" />
-							</div>
-							<div class="field">
-								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="3"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</form>
-					<section class="split contact">
-						<section>
-							<h3>Email</h3>
-							<p><a href="mailto:1ngiunta2@gmail.com">1ngiunta2@gmail.com</a></p>
-						</section>
-					</section>
-				</section>
-			</div>
-
-			<!-- Footer -->
-			<footer id="footer">
-				<p>&copy; Nicholas Giunta. Designed using <a href="https://html5up.net">HTML5 UP</a>.</p>
-			</footer>
-		</div>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
