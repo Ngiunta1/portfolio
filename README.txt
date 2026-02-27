@@ -1,32 +1,57 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Nicholas Giunta - Data Analyst Portfolio
 
+Personal portfolio website showcasing my data analytics projects, technical skills, and professional experience.
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+🔗 **Live Site:** [ngiunta1.github.io/portfolio](https://ngiunta1.github.io/portfolio/)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+---
 
-(* = not included)
+## 📊 Featured Projects
 
-AJ
-aj@lkn.io | @ajlkn
+### Arizona Housing Affordability Calculator
+Interactive Power BI dashboard analyzing 55,626+ property listings across Arizona with mortgage calculations and geographic visualization.
+- **Tech Stack:** Python, SQL, Power BI, DAX, GeoPy, ArcGIS Maps
+- **Features:** Dynamic mortgage calculator, geocoded map visualization, multi-page dashboard
+- [View Project](https://github.com/Ngiunta1/phoenix-housing-analysis)
 
+### Worldwide Company Layoffs Analysis
+Data cleaning and exploratory analysis of global layoffs using MySQL.
+- **Tech Stack:** MySQL, SQL
+- **Features:** Data standardization, trend analysis, time series calculations
+- [View Project](https://github.com/Ngiunta1/portfolio/blob/main/Worldwide%20Company%20Layoffs%20Data%20Exploration%20Project.sql)
 
-Credits:
+---
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## 🛠️ Technologies
 
-	Icons:
-		Font Awesome (fontawesome.io)
+**Data Analysis & Visualization:**
+- Power BI
+- Excel / VBA
+- Python (Pandas, GeoPy)
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+**Data Management:**
+- SQL (MySQL, SQLite)
+- Database Design
+- ETL Pipelines
+
+**Web Development:**
+- HTML/CSS
+- GitHub Pages
+
+---
+
+## 📫 Contact
+
+- **Email:** nicholas.giunta@amplifon.com
+- **LinkedIn:** [linkedin.com/in/ngiunta1](https://www.linkedin.com/in/ngiunta1/)
+- **GitHub:** [github.com/Ngiunta1](https://github.com/Ngiunta1)
+
+---
+
+## 📄 License
+
+This portfolio is for professional showcase purposes.
+
+---
+
+*Website template based on [HTML5 UP](https://html5up.net)*
