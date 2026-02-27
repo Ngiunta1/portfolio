@@ -42,7 +42,7 @@ Data cleaning and exploratory analysis of global layoffs using MySQL.
 
 ## 📫 Contact
 
-- **Email:** nicholas.giunta@amplifon.com
+- **Email:** 1ngiunta2@gmail.com
 - **LinkedIn:** [linkedin.com/in/ngiunta1](https://www.linkedin.com/in/ngiunta1/)
 - **GitHub:** [github.com/Ngiunta1](https://github.com/Ngiunta1)
 
