@@ -18,7 +18,7 @@ Interactive Power BI dashboard analyzing 55,626+ property listings across Arizon
 Data cleaning and exploratory analysis of global layoffs using MySQL.
 - **Tech Stack:** MySQL, SQL
 - **Features:** Data standardization, trend analysis, time series calculations
-- [View Project](https://github.com/Ngiunta1/portfolio/blob/main/Worldwide%20Company%20Layoffs%20Data%20Exploration%20Project.sql)
+- [View Project](https://github.com/Ngiunta1/PortfolioProjects.git)
 
 ---
 
